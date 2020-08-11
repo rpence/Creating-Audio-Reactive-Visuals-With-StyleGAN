@@ -10,7 +10,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Create Video from MP3 and Images')
 parser.add_argument('--fps', default=40, type=int, help='Fps for video')
-parser.add_argument('--path', default="./imgs", type=str, help='Image Folder')
+parser.add_argument('--path', default="./imgs/", type=str, help='Image Folder')
 parser.add_argument('--music', type=str, help='Music MP3 Location')
 parser.add_argument('--output', default="output.mp4", type=str, help='Output File Name')
 parser.add_argument('--resolution', default=512, type=int, help='Resolution of Video')
