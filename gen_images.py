@@ -17,7 +17,7 @@ import tensorflow as tf
 from tqdm import tqdm
 
 import sys
-sys.path.append('resource/stylegan')
+sys.path.append('../stylegan2')
 import dnnlib
 import dnnlib.tflib as tflib
 
